@@ -5,7 +5,8 @@
 	<title>Банда Умников</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="js/script.js"></script>
+	<script src="js/vue.min.js"></script>
+	<script async src="js/script.js"></script>
 </head>
 <body>
 	<article class="promo">
@@ -18,12 +19,31 @@
 				</a>
 				<div class="info-wrapper">
 					<h3 class="banner-title">Предзаказ тетради «Кубометрия 3D»</h3>
-					<p class="text">Акция заканчивается 14 апреля. Через:</p>
-					<div class="timer">
+					<p class="text">Акция заканчивается 10 мая. Через:</p>
+					<div id="timer" class="timer">
+						<Timer 
+							starttime="Apr 29, 2019 15:37:25" 
+							endtime="May 10, 2019 16:37:25" 
+							trans='{  
+							"day":"Day",
+							"hours":"часов",
+							"minutes":"минут",
+							"seconds":"секунд",
+							"expired":"Event has been expired.",
+							"running":"Till the end of event.",
+							"upcoming":"Till start of event.",
+							"status": {
+							"expired":"Expired",
+							"running":"Running",
+							"upcoming":"Future"
+							}}'
+							></Timer>
+						</div>
+					<!-- <div class="timer">
 						<span class="time-wrapper"><span class="number">1 2</span> часов</span>
 						<span class="time-wrapper"><span class="number">1 2</span> минут</span>
 						<span class="time-wrapper"><span class="number">1 2</span> секунд</span>
-					</div>
+					</div> -->
 					<div class="price-wrapper">
 						<div class="price">
 							<span class="current">9&nbsp;999&nbsp;&#8381;</span>
