@@ -1,0 +1,180 @@
+@font-face {
+	src: url('../fonts/proximanova-regular.woff2');
+	font-family: 'Proximanova Regular';
+}
+
+@font-face {
+	src: url('../fonts/proximanova-bold.woff2');
+	font-family: 'Proximanova Bold';
+}
+
+@font-face {
+	src: url('../fonts/umnik-bold.woff2');
+	font-family: 'Umnik Bold';
+}
+
+body {
+	margin: 0;
+}
+
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: normal;
+	font-family: 'Proximanova Regular';
+	margin-top: 35px;
+	margin-bottom: 18px;
+}
+
+.promo {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+.banner-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.banner {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+/* Banner 1 */
+.banner-1 {
+	display: flex;
+	min-width: 320px;
+	max-width: 566px;
+	background-image: url('../images/banner-1_back.png');
+	padding: 12px 15px 13px;
+	margin-right: 42px;
+}
+
+/* Banner 1 - Cover image */
+.cover-link {
+	display: inline-block;
+	position: relative;
+	margin-right: 43px;
+}
+
+.label {
+	position: absolute;
+	top: -9px;
+	right: -42px;
+}
+
+/* Banner 1 - Info */
+.info-wrapper {
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Proximanova Regular';
+}
+
+.banner-title {
+	font-size: 31px;
+	font-family: 'Proximanova Bold';
+	line-height: 1.2;
+	margin-bottom: 5px;
+	letter-spacing: -1px;
+}
+
+.info-wrapper .text {
+	margin-bottom: 15px;
+}
+
+.timer {
+	margin-bottom: 15px;
+}
+
+.time-wrapper {
+	display: inline-block;
+	text-align: center;
+}
+
+.time-wrapper:not(:last-child) {
+	margin-right: 20px;
+}
+
+.time-wrapper .number {
+	display: block;
+	width: 80px;
+	height: 55px;
+	font-size: 55px;
+	font-family: 'Umnik Bold';
+	/* letter-spacing: 15px; */
+	background-image: url('../images/time_back-dots.png'), url('../images/time_back.png');
+	background-repeat: no-repeat;
+	background-position: 50% 0, right 0;
+}
+
+.price-wrapper {
+	display: flex;
+	align-items: flex-start;
+}
+
+.price {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.price .current {
+	color: #ff0072;
+	display: block;
+	font-size: 36px;
+	line-height: 15px;
+	font-family: 'Proximanova Bold';
+	margin-bottom: 10px;
+}
+
+.price .old {
+	display: block;
+}
+
+.price del {
+	text-decoration: none;
+	transform: rotate(30deg);
+	position: relative;
+}
+
+.price del::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #ff0072;
+	transform: rotate(10deg);
+}
+
+.action-button{
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #ff0072;
+	border: none;
+	width: 142px;
+	height: 43px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+
+/* Banner 2 */
+.banner-2 {
+	min-width: 320px;
+	max-width: 561px;
+	min-height: 294px;
+	position: relative;
+}
+
+.banner-2 .action-button {
+	position: absolute;
+	right: 30px;
+	bottom: 26px;
+}
