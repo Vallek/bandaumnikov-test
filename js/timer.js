@@ -1,6 +1,6 @@
 Vue.component('Timer',{
-	template: `
-	<div>
+  template: `
+  <div>
       <div class="hour time-wrapper">
         <span class="number">{{ hours }}</span>
         <div class="format">{{ wordString.hours }}</div>
