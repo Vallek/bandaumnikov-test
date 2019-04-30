@@ -5,7 +5,6 @@
 	<title>Банда Умников</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="js/vue.min.js"></script>
 	<script defer src="js/timer.js"></script>
 </head>
 <body>
@@ -20,26 +19,13 @@
 				<div class="info-wrapper">
 					<h3 class="banner-title">Предзаказ тетради «Кубометрия 3D»</h3>
 					<p class="text">Акция заканчивается 10 мая. Через:</p>
-					<div id="timer" class="timer">
-						<Timer 
-							starttime="Apr 29, 2019 15:37:25" 
-							endtime="May 10, 2019 16:37:25" 
-							trans='{  
-							"day":"Day",
-							"hours":"часов",
-							"minutes":"минут",
-							"seconds":"секунд",
-							"expired":"Event has been expired.",
-							"running":"Till the end of event.",
-							"upcoming":"Till start of event.",
-							"status": {
-							"expired":"Expired",
-							"running":"Running",
-							"upcoming":"Future"
-							}}'
-							>
-						</Timer>
-					</div>
+					<div class="countdown">
+						<p class="timer">
+						  <span class="time-wrapper"><span class="number" id="hours"></span>часов</span>
+						  <span class="time-wrapper"><span class="number" id="minutes"></span>минут</span>
+						  <span class="time-wrapper"><span class="number" id="seconds"></span>секунд</span>
+						</p>
+					  </div>
 					<!-- <div class="timer">
 						<span class="time-wrapper"><span class="number">1 2</span> часов</span>
 						<span class="time-wrapper"><span class="number">1 2</span> минут</span>
