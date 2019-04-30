@@ -23,8 +23,8 @@ Vue.component('Timer',{
       start: "",
       end: "",
       interval: "",
-      days:"",
-      minutes:"",
+      days: "",
+      minutes: "",
       hours:"",
       seconds:"",
       message:"",
@@ -83,8 +83,10 @@ Vue.component('Timer',{
     }
     
   }
+  
 });
 
 new Vue({
   el: "#timer",
 });
+

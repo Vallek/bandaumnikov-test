@@ -99,6 +99,9 @@ h2 {
 .time-wrapper {
 	display: inline-block;
 	text-align: center;
+	background-image: url('../images/time_back-dots.png'), url('../images/time_back.png');
+	background-repeat: no-repeat;
+	background-position: 50% 0, right 0;
 }
 
 .time-wrapper:not(:last-child) {
@@ -109,11 +112,12 @@ h2 {
 	display: block;
 	width: 80px;
 	height: 55px;
+	position: relative;
+	left: 5px;
+	letter-spacing: 10px;
 	font-size: 55px;
 	font-family: 'Umnik Bold';
-	background-image: url('../images/time_back-dots.png'), url('../images/time_back.png');
-	background-repeat: no-repeat;
-	background-position: 50% 0, right 0;
+	text-align: right;
 }
 
 .price-wrapper {
@@ -157,6 +161,7 @@ h2 {
 }
 
 .action-button {
+	text-decoration: none;
 	display: inline-block;
 	display: inline-flex;
 	justify-content: center;
