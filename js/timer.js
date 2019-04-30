@@ -37,8 +37,6 @@ function countdown(dateEnd) {
       return;
     }
   }
-
-  function display(days, hours, minutes, seconds) {}
 }
 
 countdown('05/10/2019 03:14:07 AM');
