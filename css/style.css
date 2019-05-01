@@ -34,20 +34,29 @@ h2 {
 }
 
 .banner-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
-	flex-wrap: wrap;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 
 .banner {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	display: inline-block;
 }
 
 /* Banner 1 */
 .banner-1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	min-width: 320px;
 	max-width: 566px;
 	background-image: url('../images/banner-1_back.png');
@@ -74,7 +83,9 @@ h2 {
 	display: inline-block;
 	font-size: 16px;
 	font-family: 'Proximanova Regular';
-	flex: 0 1 290px;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 290px;
+	        flex: 0 1 290px;
 }
 
 .banner-title {
@@ -118,8 +129,12 @@ h2 {
 }
 
 .price-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 }
 
 .price {
@@ -142,7 +157,6 @@ h2 {
 
 .price del {
 	text-decoration: none;
-	transform: rotate(30deg);
 	position: relative;
 }
 
@@ -154,25 +168,37 @@ h2 {
 	width: 100%;
 	height: 2px;
 	background-color: #ff0072;
-	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	        transform: rotate(10deg);
 }
 
-.action-button {
+.more-link {
 	text-decoration: none;
 	display: inline-block;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #ff0072;
 	border: none;
 	width: 142px;
 	height: 43px;
-	box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	        box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 	cursor: pointer;
 	font-size: 18px;
 	font-family: 'Proximanova Bold';
+}
+
+.more-link:hover {
+	background-color: #fd3c93;
 }
 
 /* Banner 2 */
@@ -187,7 +213,7 @@ h2 {
 	height: auto;
 }
 
-.banner-2 .action-button {
+.banner-2 .more-link {
 	position: absolute;
 	right: 30px;
 	bottom: 26px;
