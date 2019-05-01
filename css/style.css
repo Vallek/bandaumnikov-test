@@ -38,15 +38,15 @@ h2 {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .banner {
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	display: inline-block;
 }
 
@@ -56,7 +56,7 @@ h2 {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 	min-width: 320px;
 	max-width: 566px;
 	background-image: url('../images/banner-1_back.png');
@@ -84,8 +84,8 @@ h2 {
 	font-size: 16px;
 	font-family: 'Proximanova Regular';
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 290px;
-	        flex: 0 1 290px;
+	-ms-flex: 0 1 290px;
+	flex: 0 1 290px;
 }
 
 .banner-title {
@@ -133,8 +133,8 @@ h2 {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
 }
 
 .price {
@@ -169,7 +169,7 @@ h2 {
 	height: 2px;
 	background-color: #ff0072;
 	-webkit-transform: rotate(10deg);
-	        transform: rotate(10deg);
+	transform: rotate(10deg);
 }
 
 .more-link {
@@ -179,11 +179,11 @@ h2 {
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #ff0072;
@@ -191,7 +191,7 @@ h2 {
 	width: 142px;
 	height: 43px;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
-	        box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 	cursor: pointer;
 	font-size: 18px;
 	font-family: 'Proximanova Bold';
