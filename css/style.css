@@ -190,8 +190,8 @@ h2 {
 	border: none;
 	width: 142px;
 	height: 43px;
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
-	box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	cursor: pointer;
 	font-size: 18px;
 	font-family: 'Proximanova Bold', sans-serif;
