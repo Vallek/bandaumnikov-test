@@ -39,4 +39,4 @@ function countdown(dateEnd) {
   }
 }
 
-countdown('05/10/2019 03:14:07 AM');
+countdown('05/10/2020 03:14:07 AM');
